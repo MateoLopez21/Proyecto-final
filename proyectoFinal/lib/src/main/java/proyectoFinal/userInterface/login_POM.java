@@ -16,6 +16,4 @@ public class login_POM extends PageObject {
 	public static Target TXT_Password = Target.the("El input donde se digita la contraseña").located(By.name("contrasena"));
 	public static Target BTN_Sesion = Target.the("El boton de iniciar sesion").located(By.xpath("//button[@type='submit']"));
 
-
-
 }
