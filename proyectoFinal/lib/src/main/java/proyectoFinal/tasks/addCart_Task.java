@@ -19,19 +19,19 @@ public class addCart_Task implements Task {
 		// TODO Auto-generated method stub
 		
 		actor.attemptsTo(
-			Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Libros),
-			
-			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.LBL_Book1, isVisible()).forNoMoreThan(5).seconds(),
-			MoveMouse.to(proyectoFinal.userInterface.addCart_POM.LBL_Book1),
-			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_AddCart1, isVisible()).forNoMoreThan(3).seconds(),
-			Click.on(proyectoFinal.userInterface.addCart_POM.BTN_AddCart1),
-			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_Continue, isVisible()).forNoMoreThan(3).seconds(),
-			Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Continue),
-			
-			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_Cart, isVisible()).forNoMoreThan(3).seconds(),
-			Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Cart)
-			
-);
+				WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_Libros, isVisible()).forNoMoreThan(5).seconds(),
+				Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Libros),
+				
+				WaitUntil.the(proyectoFinal.userInterface.addCart_POM.LBL_Book1, isVisible()).forNoMoreThan(5).seconds(),
+				MoveMouse.to(proyectoFinal.userInterface.addCart_POM.LBL_Book1),
+				WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_AddCart1, isVisible()).forNoMoreThan(3).seconds(),
+				Click.on(proyectoFinal.userInterface.addCart_POM.BTN_AddCart1),
+				WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_Continue, isVisible()).forNoMoreThan(3).seconds(),
+				Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Continue),
+				
+				WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_Cart, isVisible()).forNoMoreThan(3).seconds(),
+				Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Cart)
+				);
 		
 	}
 
