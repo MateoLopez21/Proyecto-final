@@ -26,19 +26,18 @@ public class addCart_Step extends base {
 	
 	
 	@Given("El usuario se encuentra en el apartado libros")
-    public void elUsuarioSeEncuentraEnElApartadoLibros() throws Throwable {
+    public void usuarioSeEncuentraEnApartadoLibros() throws Throwable{
 		 Usuario.wasAbleTo(Open.browserOn().the(Login));
 		
     }
 	
-    @When("El usuario agrega dos libros al carrito")
-    public void elUsuarioAgregaDosLibrosAlCarrito() throws Throwable {
+	@When("El usuario agrega un libro al carrito")
+    public void usuarioAgregaLibroAlCarrito() throws Throwable {
 		 Usuario.attemptsTo(addCart_Task.toTheCart());
-		 Thread.sleep(7000);
     }
     
-    @Then("La pagina mostrara los dos libros en el carrito")
-    public void laPaginaMostraraLosDosLibrosEnElCarrito() throws Throwable {
+	@Then("La pagina mostrara el libro en el carrito")
+    public void paginaMostraraLibroEnCarrito() throws Throwable {
     	Usuario.attemptsTo(WaitUntil.the(addCart_POM.LBL_ProductsCart, isVisible()).forNoMoreThan(10).seconds());
     	Usuario.should(seeThat(the(addCart_POM.LBL_ProductsCart), isVisible()));
 

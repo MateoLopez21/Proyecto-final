@@ -28,12 +28,6 @@ public class addCart_Task implements Task {
 			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_Continue, isVisible()).forNoMoreThan(3).seconds(),
 			Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Continue),
 			
-			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.LBL_Book2, isVisible()).forNoMoreThan(5).seconds(),
-			MoveMouse.to(proyectoFinal.userInterface.addCart_POM.LBL_Book2),
-			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_AddCart2, isVisible()).forNoMoreThan(3).seconds(),
-			Click.on(proyectoFinal.userInterface.addCart_POM.BTN_AddCart2),
-			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_Continue, isVisible()).forNoMoreThan(3).seconds(),
-			Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Continue),
 			WaitUntil.the(proyectoFinal.userInterface.addCart_POM.BTN_Cart, isVisible()).forNoMoreThan(3).seconds(),
 			Click.on(proyectoFinal.userInterface.addCart_POM.BTN_Cart)
 			
