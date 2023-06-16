@@ -40,3 +40,4 @@ tasks.withType(Test){
 }
 
 gradle.startParameter.continueOnFailure = true
+
