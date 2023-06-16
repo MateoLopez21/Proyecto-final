@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Agregar al carrito","Agregar dos libros al carrito","SUCCESS","2023-06-14T15:12:55.5645694-05:00[America/Bogota]","0.0","17.41"
+"Eliminar productos del carrito","Eliminar los productos del carrito","PENDING","2023-06-14T15:13:14.0800666-05:00[America/Bogota]","0.0","0.03"
+"Iniciar Sesion en el sistema","Loguearse con credenciales validas","SUCCESS","2023-06-14T15:13:14.1121642-05:00[America/Bogota]","0.0","11.83"
