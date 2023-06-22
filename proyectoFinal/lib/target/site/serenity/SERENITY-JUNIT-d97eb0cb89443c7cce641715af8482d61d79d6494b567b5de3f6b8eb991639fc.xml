@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Iniciar Sesion en el sistema" skipped="0" tests="1" time="11.83" timestamp="2023-06-14 03:13:14"><testcase name="Loguearse con credenciales validas"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Iniciar Sesion en el sistema" skipped="0" tests="1" time="8.54" timestamp="2023-06-22 08:17:59"><testcase name="Loguearse con credenciales validas"/></testsuite>
